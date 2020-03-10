@@ -19,6 +19,7 @@ class TwitchWebhook extends EventEmitter {
    *
    * @param {Object} options - Options
    * @param {string} options.client_id - Client ID required for Twitch API calls
+   * @param {string} options.token - Bearer token required for Twitch API calls
    * @param {string} options.callback - URL where notifications
    * will be delivered.
    * @param {string} [options.secret=false] - Secret used to sign
